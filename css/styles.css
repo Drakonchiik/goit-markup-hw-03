@@ -183,20 +183,23 @@ body {
 }
 
 .advant-title {
+  margin: 0;
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
 }
 
 .advant-descr {
-  margin-top: 0;
-
+  margin: 0;
   line-height: 1.5;
   color: var(--text-color);
 }
 
 /* about us */
 .about-title {
+  margin: 0;
+  margin-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -206,7 +209,6 @@ body {
 .about-img {
   display: flex;
   justify-content: center;
-  margin-top: 72px;
 }
 
 .about-img .item {
@@ -225,14 +227,13 @@ body {
 .our-team {
   display: flex;
   justify-content: center;
-  margin-top: 72px;
 }
 
 .our-team .item + .item {
   margin-left: 24px;
 }
 .team-title {
-  margin-bottom: 0;
+  margin-bottom: 72px;
   margin-top: 0;
 
   font-size: 36px;
