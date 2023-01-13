@@ -292,6 +292,10 @@ body {
 }
 
 /* our projects */
+.section-proj {
+  padding-bottom: 120px;
+}
+
 .project {
   display: flex;
   flex-wrap: wrap;
