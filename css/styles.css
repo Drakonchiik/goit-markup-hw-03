@@ -123,7 +123,8 @@ body {
 }
 
 .section {
-  margin-bottom: 120px;
+  padding-bottom: 120px;
+  padding-top: 120px;
 }
 
 /* main page index.html */
@@ -166,6 +167,9 @@ body {
 
 /* our advantages */
 
+.advant-section {
+  padding-bottom: 0;
+}
 .advant {
   display: flex;
   
@@ -216,10 +220,6 @@ body {
 /* our team */
 .team {
   background-color: var(--button-color);
-}
-
-.team-cont {
-  padding-bottom: 120px;
 }
 
 .our-team {
