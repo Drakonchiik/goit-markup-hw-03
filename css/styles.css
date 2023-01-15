@@ -11,7 +11,7 @@
 }
 
 .link {
-  text-decoration: none;  
+  text-decoration: none;
 }
 ul {
   padding: 0;
@@ -36,7 +36,6 @@ body {
 }
 
 .container {
-  margin: 0 auto;
   margin-left: auto;
   margin-right: auto;
   width: 1158px;
@@ -128,6 +127,9 @@ body {
 }
 
 /* main page index.html */
+.hero-section {
+  padding: 188px 0;
+}
 .hero {
   background-color: var(--brand-color);
 }
@@ -172,7 +174,6 @@ body {
 }
 .advant {
   display: flex;
-  
 }
 .advant .item {
   width: 264px;
@@ -208,7 +209,6 @@ body {
 
 .about-img {
   display: flex;
-  justify-content: center;
 }
 
 .about-img .item {
@@ -226,15 +226,23 @@ body {
 
 .our-team {
   display: flex;
-  justify-content: center;
 }
 
 .our-team .item + .item {
   margin-left: 24px;
 }
+
+.team-name-cont {
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  background-color: var(--white-color);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 .team-title {
+  margin: 0;
   margin-bottom: 72px;
-  margin-top: 0;
 
   font-size: 36px;
   line-height: 1.11;
@@ -242,8 +250,7 @@ body {
 }
 
 .team-name {
-  margin-top: 32px;
-  margin-bottom: 0;
+  margin: 0;
 
   text-align: center;
   font-weight: 500;
@@ -252,8 +259,9 @@ body {
 }
 
 .team-position {
+  margin: 0;
   margin-top: 8px;
-  margin-bottom: 32px;
+
   text-align: center;
   line-height: 1.5;
   color: var(--text-color);
@@ -264,7 +272,6 @@ body {
 .filter {
   display: flex;
   justify-content: center;
-  margin-top: 96px;
 }
 
 .filter .item + .item {
@@ -293,6 +300,7 @@ body {
 
 /* our projects */
 .section-proj {
+  padding-top: 96px;
   padding-bottom: 120px;
 }
 
@@ -311,16 +319,15 @@ body {
   margin-top: 48px;
 }
 
-
 .project-cont {
   padding: 32px 0 32px 16px;
-  border-bottom: 1px solid #E7E9FC;
-  border-left: 1px solid #E7E9FC;
-  border-right: 1px solid #E7E9FC;
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
 }
 .project-title {
   margin: 0;
-  margin-bottom: 8px;
+  padding-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -336,7 +343,6 @@ body {
   background-color: var(--brand-color);
   padding-top: 100px;
   padding-bottom: 100px;
-  padding-left: 156px;
 }
 
 .footer-logo {
