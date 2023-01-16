@@ -44,6 +44,9 @@ body {
 
 /* header */
 /* main nav */
+.main-header {
+  border-bottom: 1px solid #E7E9FC;
+}
 .main-nav {
   display: flex;
   align-items: center;
@@ -145,6 +148,7 @@ body {
   color: var(--white-color);
   font-size: 56px;
   line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 
 .hero-btn {
@@ -160,6 +164,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 .hero-btn:hover,
@@ -327,7 +332,7 @@ body {
 }
 .project-title {
   margin: 0;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -346,6 +351,8 @@ body {
 }
 
 .footer-logo {
+  display: block;
+  margin-bottom: 16px;
   font-family: 'Raleway';
   font-size: 18px;
   line-height: 1.17;
@@ -354,9 +361,6 @@ body {
   color: var(--button-color);
 }
 
-.footer-end {
-  margin-bottom: 16px;
-}
 
 .footer-descr {
   display: block;
